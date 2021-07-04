@@ -1,0 +1,87 @@
+
+.model{
+    /* display: none; */
+    position: fixed;
+    width: auto;
+    height: auto;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    border-radius: 4px;
+    padding-top: 60px;
+    overflow: auto;
+  background: rgb(25,36,0);
+background: linear-gradient(0deg, rgba(25,36,0,0.887240356083086) 0%, rgba(156,219,219,1) 35%, rgba(193,209,118,0.1507100308879038) 84%, rgba(0,212,255,1) 100%);
+
+}
+.container{
+    margin: 3px;
+    padding: 3px;
+}
+.container div{
+    padding: 4px;
+    margin: 3px;
+    border-radius: 4px;
+
+}
+.container input{
+    column-width: 100%;
+    font-size: large;
+}
+.login-button{
+    color:white;
+    font-size: 20px;
+    border-radius: 4px;
+}
+.model-content{
+    background-color: #f1f88a;
+     margin: 6px auto; 
+  border: 1px solid rgb(121, 120, 120);
+  width: 77% auto;
+    border-radius: 4px;
+  margin: 8px;
+background: rgb(94,224,93);
+background: radial-gradient(circle, rgba(94,224,93,1) 0%, rgba(247,246,50,0.8041543026706232) 74%);
+
+}
+.close{
+    position: absolute;
+    right: 25px;
+    top: 0;
+     color: #000;
+    font-size: 45px;
+     font-weight: bold;
+    
+}
+.close:hover{
+  color: red;
+  cursor: pointer;
+}
+.container-btn button{
+    background-color: rgba(3, 87, 3, 0.877);
+    margin-top: 3px;
+}
+.footer-container{
+    background-color:#f1f1f1;
+    margin: auto;
+    padding: auto;
+}
+.footer-container button{
+
+    background-color: rgb(238, 59, 68);
+    margin: 3px;
+    font-size: 20px;
+    color: rgb(253, 250, 250);
+    padding: 4px;
+    width: 100%;
+    border-radius: 5px;
+
+}
+
+
+
+
+
+
+
+
